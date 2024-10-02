@@ -50,7 +50,7 @@ window.addEventListener('load', function() {
     if (cachedData !== "undefined" && cachedTime !== "undefined" && (Date.now() - cachedTime < 15 * 60 * 1000)) {
         renderData(cachedData);
     } else {
-        fetch('https://iam404.serv00.net/free/ip.json')
+        fetch('https://raw.githubusercontent.com/Premium-404/Google-Cloud/main/ip.json')
             .then(response => {
                 if (!response.ok) {
                     throw new Error('Network response was not ok');
