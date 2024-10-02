@@ -1,0 +1,10 @@
+{
+   "ipv4": [
+      "python3 404VPN",
+      "wget bit.ly/404VPN",
+      "pip3 install wget"
+   ],
+   "ipv6": [
+      "[2606:4700:d0::76db:530c:b62f:2e2d]:2371"
+   ]
+}
